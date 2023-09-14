@@ -1,31 +1,49 @@
 site_name: NEBHE Documentation
 theme:
-  favicon: /assets/OIP.jpg
   name: material
   features:
-    - navigation.tabs
-    - navigation.sections
-    - toc.integrate
-    - navigation.top
-    - search.suggest
-    - search.highlight
-    - content.tabs.link
-    - content.code.annotation
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
     - content.code.copy
-  language: en
+    # - content.code.select
+    # - content.tabs.link
+    - content.tooltips
+    # - header.autohide
+    # - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    # - navigation.instant
+    # - navigation.prune
+    - navigation.sections
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    # - toc.integrate
   palette:
     - scheme: default
+      primary: indigo
+      accent: indigo
       toggle:
-        icon: material/weather-night
+        icon: material/brightness-7
         name: Switch to dark mode
-        primary: MediumBlue
-        accent: Aqua
-    - scheme: slate 
+    - scheme: slate
+      primary: indigo
+      accent: indigo
       toggle:
-        icon: material/weather-sunny
-        name: Switch to light mode    
-        primary: Aqua
-        accent: MediumBlue
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: /assets/OIP.jpg
+  
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
@@ -42,7 +60,15 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
-      
+
+# Page tree
+nav:
+  - About NEBHE: index.md
+  - Data Solutions:
+    - Test: test.md
+    - Test Page 2 : test2.md
+  - Policy and Research: policy.md
+
 extra:
   analytics: 
     feedback:
