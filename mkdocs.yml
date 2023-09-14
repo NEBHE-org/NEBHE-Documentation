@@ -1,6 +1,6 @@
 site_name: NEBHE Documentation
 theme:
-  favicon: https://github.com/NEBHE-Policy-Reasearch/NEBHE-Documentation/blob/master/docs/assets/OIP.jpg
+  favicon: /assets/OIP.jpg
   name: material
   features:
     - navigation.tabs
