@@ -1,6 +1,10 @@
 site_name: NEBHE Documentation
+site_url: https://nebhe-org.github.io/NEBHE-Documentation/
+site_author: Sahil Gadge
+site_description: >-
+  This site is build to host documentation for New England Board of Higher Education
 theme:
-  favicon: assets/OIP.jpg
+  favicon: assets/OIP.png
   name: material
   features:
     - announce.dismiss
@@ -68,8 +72,8 @@ nav:
     - Policy and Research: about/policy-and-research.md
     - Tuition Break: about/tution-break.md
   - Data Solutions:
-    - Test: test.md
-    - Test Page 2 : test2.md
+    - Test: policy-training/test.md
+    - Test Page 2 : policy-training/test2.md
 
 extra:
   analytics: 
@@ -87,6 +91,17 @@ extra:
           note: >- 
             Thanks for your feedback! Help us improve this page by
             using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/linkedin 
+      link: https://www.linkedin.com/company/new-england-board-of-higher-education
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/nebhe
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/nebhe
+
 
 copyright: |
   &copy; 2023 <a href="https://nebhe.org/"  target="_blank" rel="noopener">NEBHE</a>
