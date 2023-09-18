@@ -65,8 +65,8 @@ markdown_extensions:
 nav:
   - About NEBHE:
     - About NEBHE: index.md
-    - Policy and Research: about\policy-and-research.md
-    - Tuition Break: about\tution-break.md
+    - Policy and Research: about/policy-and-research.md
+    - Tuition Break: about/tution-break.md
   - Data Solutions:
     - Test: test.md
     - Test Page 2 : test2.md
