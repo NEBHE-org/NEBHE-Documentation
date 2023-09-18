@@ -63,11 +63,12 @@ markdown_extensions:
 
 # Page tree
 nav:
-  - About NEBHE: index.md
+  - About NEBHE: 
+    - About NEBHE: index.md
+    - Policy and Research: policy.md
   - Data Solutions:
     - Test: test.md
     - Test Page 2 : test2.md
-  - Policy and Research: policy.md
 
 extra:
   analytics: 
