@@ -42,7 +42,6 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
-  favicon: /assets/OIP.jpg
   
 markdown_extensions:
   - pymdownx.highlight:
@@ -63,9 +62,10 @@ markdown_extensions:
 
 # Page tree
 nav:
-  - About NEBHE: 
+  - About NEBHE:
     - About NEBHE: index.md
-    - Policy and Research: policy.md
+    - Policy and Research: about\policy-and-research.md
+    - Tuition Break: about\tution-break.md
   - Data Solutions:
     - Test: test.md
     - Test Page 2 : test2.md
