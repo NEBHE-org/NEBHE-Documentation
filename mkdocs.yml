@@ -49,32 +49,15 @@ theme:
     text: Roboto
     code: Roboto Mono
   
-markdown_extensions:
-  - pymdownx.highlight:
-      anchor_linenums: true
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - admonition
-  - pymdownx.arithmatex:
-      generic: true
-  - footnotes
-  - pymdownx.details
-  - pymdownx.superfences
-  - pymdownx.mark
-  - attr_list
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-
 # Page tree
 nav:
   - About NEBHE:
     - About NEBHE: index.md
     - Policy and Research: about/policy-and-research.md
     - Tuition Break: about/tution-break.md
-  - Data Solutions:
-    - Test: policy-training/test.md
-    - Test Page 2 : policy-training/test2.md
+  - Training:
+    - Scrape Data into Excel: policy-training/test.md
+    - Scrape Data into PowerBI : policy-training/test2.md
 
 extra:
   analytics: 
@@ -100,7 +83,6 @@ extra:
       link: https://www.facebook.com/nebhe
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/nebhe
-
 
 markdown_extensions:
   - abbr
