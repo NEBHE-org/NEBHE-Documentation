@@ -1,9 +1,10 @@
-site_name: NEBHE Documentation
+site_name: Documentation
 site_url: https://nebhe-org.github.io/NEBHE-Documentation/
 site_author: Sahil Gadge
 site_description: >-
   This site is build to host documentation for New England Board of Higher Education
 theme:
+  logo: assets/NEBHE-white.png
   favicon: assets/OIP.png
   name: material
   features:
@@ -34,15 +35,15 @@ theme:
   palette:
     - scheme: default
       primary: indigo
-      accent: indigo
+      accent: black
       toggle:
-        icon: material/brightness-7
+        icon: material/weather-night
         name: Switch to dark mode
     - scheme: slate
-      primary: indigo
+      primary: black
       accent: indigo
       toggle:
-        icon: material/brightness-4
+        icon: material/weather-sunny
         name: Switch to light mode
   font:
     text: Roboto
@@ -91,8 +92,6 @@ extra:
           note: >- 
             Thanks for your feedback! Help us improve this page by
             using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
-
-extra:
   generator: false
   social:
     - icon: fontawesome/brands/linkedin 
@@ -102,6 +101,55 @@ extra:
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/nebhe
 
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:materialx.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      normalize_issue_symbols: true
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      auto_append:
+        - includes/mkdocs.md
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+      combine_header_slug: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
 
 copyright: |
   &copy; 2023 <a href="https://nebhe.org/"  target="_blank" rel="noopener">NEBHE</a>
