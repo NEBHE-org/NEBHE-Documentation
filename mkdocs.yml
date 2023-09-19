@@ -2,7 +2,7 @@ site_name: Documentation
 site_url: https://nebhe-org.github.io/NEBHE-Documentation/
 site_author: Sahil Gadge
 site_description: >-
-  This site is build to host documentation for New England Board of Higher Education
+  This site is build to host documentation for New England Board of Higher Education.
 theme:
   logo: assets/NEBHE-white.png
   favicon: assets/OIP.png
