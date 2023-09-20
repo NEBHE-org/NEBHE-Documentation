@@ -1,4 +1,4 @@
-# ![NEBHE Logo](<img/NEBHE logo copy.png>)
+# ![NEBHE Logo](<img/NEBHE-logo.png>)
 ## Leading into the Future: Challenges and Opportunities
 
 _Higher education is New England’s most critical sustainable resource. The region’s governors knew that over 65 years ago when they founded the [New England Board of Higher Education (NEBHE)](https://nebhe.org/). Today, NEBHE promotes greater education opportunities and services for the residents of New England and its more than 250 colleges and universities. It works across the six New England states to help leaders assess, develop and implement sound education practices and policies of regional significance; to promote regional cooperation and programs that encourage the efficient use and sharing of educational resources; and to strengthen the relationship between higher education and the economic well-being and quality of life in New England._
