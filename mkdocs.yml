@@ -56,8 +56,8 @@ nav:
     - Policy and Research: about/policy-and-research.md
     - Tuition Break: about/tution-break.md
   - Training:
-    - Scrape Data into Excel: policy-training/scrape-excel.md
-    - Scrape Data into PowerBI : policy-training/scrape-powerbi.md
+    - Scrape Data using Excel: policy-training/scrape-excel.md
+    - Scrape Data using PowerBI : policy-training/scrape-powerbi.md
 
 extra:
   analytics: 
