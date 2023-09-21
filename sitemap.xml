@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://nebhe-org.github.io/NEBHE-Documentation/</loc>
+         <lastmod>2023-09-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://nebhe-org.github.io/NEBHE-Documentation/about/policy-and-research/</loc>
+         <lastmod>2023-09-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://nebhe-org.github.io/NEBHE-Documentation/about/tution-break/</loc>
+         <lastmod>2023-09-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://nebhe-org.github.io/NEBHE-Documentation/policy-training/scrape-excel/</loc>
+         <lastmod>2023-09-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://nebhe-org.github.io/NEBHE-Documentation/policy-training/scrape-powerbi/</loc>
+         <lastmod>2023-09-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+</urlset>
