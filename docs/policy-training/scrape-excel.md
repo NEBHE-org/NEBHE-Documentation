@@ -1,4 +1,6 @@
 # Scrape Data from Web using Excel
+
+![excel-logo](../img/scrape-excel/excel-logo.png)
 ## **Cases and Recommendations**
 Choosing Between Excel and Power BI for Web Data Extraction and Analysis
 

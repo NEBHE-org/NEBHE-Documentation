@@ -1,5 +1,5 @@
 # Scrape Data from Web using Power BI
-
+![powerbi-logo](../img/scrape-powerbi/powerbi-logo.png)
 ## **Cases and Recommendations**
 Choosing Between Excel and Power BI for Web Data Extraction and Analysis
 
@@ -74,7 +74,7 @@ In summary, the choice between Excel and Power BI depends on the nature of the w
 
   - To do this, click on "Transform Data" under the "Home" tab.
   
-  ![powerbi-edit-queries](../img/scrape-powerbi/powerbi-edit-queries.png)
+    ![powerbi-edit-queries](../img/scrape-powerbi/powerbi-edit-queries.png)
 
   - The Power Query Editor will open, where you can make necessary edits and transformations to the data.
 
